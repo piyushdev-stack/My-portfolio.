@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Merriweather+Sans:ital,wght@1,500&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: black;
+}
+#welcomehome{
+    display: inline-block;
+    height: 760px;
+    width: 100%;
+    background-image: url("bg2.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    /* position: reative; */
+    margin-bottom: -4px;
+}
+#Hi{
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 10px auto;
+    font-family: 'Arimo', sans-serif;
+    position: relative;
+    /* top: 10px;
+    left: 491px; */
+    text-align: center;
+    font-size: 25px;
+    color: blanchedalmond;
+}
+#myName{
+    overflow: hidden;
+    font-family: 'Arimo', sans-serif;
+    /* position: relative;
+    left: 488px; */
+    margin: 10px auto;
+    color: blanchedalmond;
+    font-size: 61px;
+    text-align: center;
+} 
+#iam{
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    color: #ff0000;
+    margin: 20px 20px;
+    font-size: 40px;
+    margin: 10px auto;
+    text-align: center;
+}
+#skill{
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    font-size: 53px;
+    color: blanchedalmond;
+    margin: 10px auto;
+    font-size: 62px;
+    text-align: center;
+}
+#mainContent{
+    /* border: 1px solid whitesmoke; */
+    display: inline-block;
+    position: absolute;
+    top: 131px;
+    left: -71px;
+    margin: 20px auto;
+    width: 50%;
+}
+
+#navbar{
+    font-family: 'Arimo', sans-serif;
+    display: flex;
+    flex-direction: row;  
+    position: sticky;
+    top: 0;
+    color: blanchedalmond;
+    background-color:#a52a2aa1 ;
+    width: 100%;
+    z-index: 15;
+    height: 50px;
+}
+
+.nav1{
+    display:block;
+    width: 100px;
+    margin: auto;
+  
+}
+.nav{
+    font-family: 'Arimo', sans-serif;
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 18px;
+    width: 33%;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+.nav:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+#aboutMe {
+    color: blanchedalmond;
+    padding: 10px 10px;
+}
+
+#projects{
+    padding: 10px 10px;
+}
+#home{
+    padding: 10px 10px;
+}
+#contact{
+    padding: 10px 10px;
+}
+
+#socialmedialinks{
+    position: fixed;
+    right: 44px;
+    top: 328px;
+    bottom: 0px;
+    z-index: 15;
+}
+#socialmedialinks .sm{
+    color: blanchedalmond;
+    size: 55px;
+}
+#git{
+    padding: 10px 5px;
+}
+#ig{
+    padding: 10px 5px;
+}
+#lin{
+    padding: 10px 5px;
+}
+.sm :hover{
+    color: tomato
+}
+
+#about{
+    display: inline-block;
+    height: 725px;
+    width:100%;
+    background-image: url("bg5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    margin-bottom: -4px;
+}
+#projects{
+    display: inline-block;
+    height: 720px;
+    width:99%;
+    background-image: url("bg6.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: -4px;
+}
+#contacts{
+    display: inline-block;
+    height: 720px;
+    width:100%;
+    background-image: url("bg7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: -4px;
+    position: relative;
+}
+hr{
+    color: black;
+    border: 1px solid rgb(15, 15, 15);
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background-color: rgb(0, 0, 0);
+}
+#formcontainer{
+    position: absolute;
+    top: 150px;
+    right: 260px;
+    text-align: center;
+    width: 23%;
+}
+.contact{
+    overflow: hidden;
+    /* border: 1px solid black; */
+border-radius: 15px;
+margin: 10px auto;
+width: 100%;
+overflow: hidden;
+}
+.enter{
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 15px;
+    opacity: .5;
+    
+}
+.enter::placeholder{
+    color: rgb(0, 0, 0);
+}
+.submit{
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: burlywood;
+    font-family: 'Arimo', sans-serif;
+    font-size: 25px;
+    opacity: .7;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: rgb(255, 72, 0);
+    opacity: 1;
+}
+#headingcontact h1{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 82px;
+    right: 391px;
+}
