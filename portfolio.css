@@ -370,7 +370,7 @@ color: white;
     margin: auto;
     margin-top: 50px;
     font-family: 'Arimo', sans-serif;
-    
+    background: #0808085c;
 
 }
 #about h1{
@@ -521,6 +521,29 @@ color: white;
         background-position: center center;
         position: relative;
     }
+    #projects{
+        display: inline-block;
+        height: 720px;
+        width: 100%;
+        background-image: url(bg6.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: -4px;
+        background-position: center center;
+        position: relative;
+    }
+    #about{
+        display: inline-block;
+        height: 720px;
+        width: 100%;
+        background-image: url(bg5.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: -4px;
+        background-position: center center;
+        position: relative;
+        
+    }
     .mainabout1{
         color: white;
         width: 345px;
@@ -530,6 +553,7 @@ color: white;
         margin-top: 50px;
         font-family: 'Arimo', sans-serif;
         text-align: center;
+        background: #0000008f;
     }
     .mainabout2{
         color: white;
@@ -541,6 +565,7 @@ color: white;
         margin-top: 50px;
         font-family: 'Arimo', sans-serif;
         text-align: center;
+        background: #0000008f;
     }
     #about img {
         display:none;
@@ -570,6 +595,12 @@ color: white;
         height: 100px;
         font-size: 12px;
         font-family: 'Arimo', sans-serif;
+    }
+    #center {
+        position: absolute;
+        bottom: 28px;
+        right: 138px;
+        color: white;
     }
 
 }
